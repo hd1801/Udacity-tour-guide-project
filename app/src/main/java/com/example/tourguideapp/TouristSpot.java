@@ -7,11 +7,17 @@ public class TouristSpot {
     // mShortDescription -> description to show on cards
     // mDescription -> detailed description
     private String mName,mShortDescription,mDescription;
+    private int mImageResourceId;
 
     //Constructor to be used for List
     public TouristSpot(String mName,String mShortDescription) {
         this.mName = mName;
         this.mShortDescription=mShortDescription;
+    }
+    public TouristSpot(String mName, String mShortDescription, int mImageResourceId) {
+        this.mName = mName;
+        this.mShortDescription=mShortDescription;
+        this.mImageResourceId = mImageResourceId;
     }
 
     public String getDescription() {
@@ -36,5 +42,9 @@ public class TouristSpot {
 
     public void setName(String mName) {
         this.mName = mName;
+    }
+
+    public int getImageResourceId() {
+        return mImageResourceId;
     }
 }
