@@ -15,8 +15,8 @@ import java.util.List;
 
 public class ListAdapter extends ArrayAdapter<TouristSpot> {
 
-    public ListAdapter(@NonNull Context context, int resource, @NonNull List<TouristSpot> objects) {
-        super(context, resource, objects);
+    public ListAdapter(@NonNull Context context,  @NonNull List<TouristSpot> objects) {
+        super(context, 0, objects);
     }
 
     @Nullable

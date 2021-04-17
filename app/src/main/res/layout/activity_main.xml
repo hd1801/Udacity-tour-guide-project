@@ -23,8 +23,11 @@
         style="@style/Headings"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:text="Hotels"
-        android:gravity="center"/>
+        android:text="@string/Hotel"
+        android:gravity="center"
+        android:id="@+id/category_Hotel"
+        android:onClick="openHotelActivity"
+        />
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
