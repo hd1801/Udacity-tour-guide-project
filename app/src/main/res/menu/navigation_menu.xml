@@ -5,7 +5,9 @@
     <item
         android:id="@+id/nav_hotel"
         android:title="@string/Hotel" />
-
+    <item
+        android:id="@+id/nav_tourist_spots"
+        android:title="@string/Tourist_Spots"/>
     <item
         android:id="@+id/nav_restaurants"
         android:title="@string/Restaurant" />
