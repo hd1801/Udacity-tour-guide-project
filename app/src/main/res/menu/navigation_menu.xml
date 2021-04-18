@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <item
+        android:id="@+id/nav_hotel"
+        android:title="@string/Hotel" />
+
+    <item
+        android:id="@+id/nav_restaurants"
+        android:title="@string/Restaurant" />
+    <item
+        android:id="@+id/nav_shops"
+        android:title="@string/ShoppingDistrict" />
+    <item
+        android:id="@+id/nav_transports"
+        android:title="@string/Transport" />
+    <item
+        android:id="@+id/nav_emergency"
+        android:title="@string/Emergency" />
+</menu>
