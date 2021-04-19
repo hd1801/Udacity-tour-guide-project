@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -18,7 +20,15 @@ public class MainActivity extends AppCompatActivity {
     //TODO: add a navigation drawer in main activity and add seprates activities to different fragments ie- hotel, restraunt , etc.
     public void openHotelActivity(View view)
     {
+        ArrayList<TouristSpot> List = new ArrayList<>();
+        List.add(new TouristSpot(getString(R.string.SampleName), "This i s sample description", R.drawable.sample));
+        List.add(new TouristSpot("Sample Place", "This i s sample description", R.drawable.sample));
+        List.add(new TouristSpot("Sample Place", "This i s sample description", R.drawable.sample));
+        List.add(new TouristSpot("Sample Place", "This i s sample description", R.drawable.sample));
         Intent i= new Intent(MainActivity.this,ListActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putParcelableArrayList("data",List);
+        i.putExtras(bundle);
         startActivity(i);
     }
 }

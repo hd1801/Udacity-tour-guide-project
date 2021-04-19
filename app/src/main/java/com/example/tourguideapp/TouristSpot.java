@@ -1,12 +1,13 @@
 package com.example.tourguideapp;
 
-//TODO: Modify the class for proper details in fragments
+import android.os.Parcel;
+import android.os.Parcelable;
 
-public class TouristSpot {
+public class TouristSpot implements Parcelable {
     // mName-> Name of the locatioan
     // mShortDescription -> description to show on cards
     // mDescription -> detailed description
-    private String mName,mShortDescription,mDescription;
+    private String mName,mShortDescription,mDescription,mAddress,mContact;
     private int mImageResourceId;
 
     //Constructor to be used for List
@@ -18,6 +19,28 @@ public class TouristSpot {
         this.mName = mName;
         this.mShortDescription=mShortDescription;
         this.mImageResourceId = mImageResourceId;
+    }
+    public TouristSpot(String mName, String mShortDescription, int mImageResourceId,String mDescription,String mAddress,String mContact) {
+        this.mName = mName;
+        this.mShortDescription=mShortDescription;
+        this.mImageResourceId = mImageResourceId;
+        this.mDescription=mDescription;
+        this.mAddress=mAddress;
+        this.mContact=mContact;
+
+    }
+
+    //Constructor used for parcel
+    public TouristSpot(Parcel parcel)
+    {
+        //read and set value from parcel
+        this.mName = parcel.readString();
+        this.mShortDescription=parcel.readString();
+        this.mDescription = parcel.readString();
+        this.mAddress=parcel.readString();
+        this.mContact=parcel.readString();
+        this.mImageResourceId=parcel.readInt();
+
     }
 
     public String getDescription() {
@@ -47,4 +70,39 @@ public class TouristSpot {
     public int getImageResourceId() {
         return mImageResourceId;
     }
+
+    public String getAddress() {
+        return mAddress;
+    }
+
+    public String getContact() {
+        return mContact;
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(mName);
+        dest.writeString(mShortDescription);
+        dest.writeString(mDescription);
+        dest.writeString(mAddress);
+        dest.writeString(mContact);
+        dest.writeInt(mImageResourceId);
+    }
+    public static final Parcelable.Creator<TouristSpot> CREATOR = new Parcelable.Creator<TouristSpot>(){
+
+        @Override
+        public TouristSpot createFromParcel(Parcel source) {
+            return new TouristSpot(source);
+        }
+
+        @Override
+        public TouristSpot[] newArray(int size) {
+            return new TouristSpot[0];
+        }
+    };
 }

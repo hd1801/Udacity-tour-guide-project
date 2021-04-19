@@ -12,11 +12,13 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ListActivity extends AppCompatActivity {
 
     public DrawerLayout drawerLayout;
     public ActionBarDrawerToggle actionBarDrawerToggle;
+    private ArrayList<TouristSpot> List;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,11 +40,8 @@ public class ListActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-        ArrayList<TouristSpot> List = new ArrayList<>();
-        List.add(new TouristSpot(getString(R.string.SampleName), "This i s sample description", R.drawable.sample));
-        List.add(new TouristSpot("Sample Place", "This i s sample description", R.drawable.sample));
-        List.add(new TouristSpot("Sample Place", "This i s sample description", R.drawable.sample));
-        List.add(new TouristSpot("Sample Place", "This i s sample description", R.drawable.sample));
+        Bundle bundle = getIntent().getExtras();
+        List = bundle.getParcelableArrayList("data");
         ListAdapter adapter = new ListAdapter(this, List);
         ListView listView = (ListView) findViewById(R.id.list_view);
         listView.setAdapter(adapter);
@@ -50,7 +49,8 @@ public class ListActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                //TODO: open fragment
+                TouristSpot spot = (TouristSpot) parent.getItemAtPosition(position);
+
             }
         });
 
