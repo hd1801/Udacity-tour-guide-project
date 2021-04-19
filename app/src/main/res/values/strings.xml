@@ -81,6 +81,14 @@ The marvelous structure exudes a quiet, peaceful vibe, offering just the right a
 
 While the official name for this place is Galta Ji, it's better known as the Monkey Temple for the hundreds of macaques and langurs that live here. Daring tourists might opt to buy a handful of peanuts at the gate to tempt the monkeys, but you're better off just watching the rambunctious creatures from a distance.</string>
 
+    <string name="Jal_Mahal_spot">Jal Mahal</string>
+    <string name="Jal_Mahal_short_desc">a palace in the middle of the Man Sagar Lake</string>
+    <string name="Jal_Mahal_contact">141-2673337</string>
+    <string name="Jal_Mahal_address">Amer Rd, Jal Mahal, Amer, Jaipur, Rajasthan 302002</string>
+    <string name="Jal_Mahal_desc">One look at the Jal Mahal, and you might think you\'re seeing a mirage. The graceful palace seems to float atop the twinkling Man Sagar Lake—a calm sight compared to the rest of the frenzied city.
+
+While it appears to have just one story, the Water Palace has four other levels submerged beneath a reservoir. Tourists can't access the site, however, that may change in the future. Rumor has it that entrepreneurs want to convert the decaying space into a luxe restaurant.</string>
+
     <string name="_spot"></string>
     <string name="_short_desc"></string>
     <string name="_contact"></string>

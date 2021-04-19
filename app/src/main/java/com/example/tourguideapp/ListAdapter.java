@@ -35,7 +35,15 @@ public class ListAdapter extends ArrayAdapter<TouristSpot> {
         // Populate the data into the template view using the data object
         title.setText(touristSpot.getName());
         short_desc.setText(touristSpot.getShortDescription());
-        image.setImageResource(touristSpot.getImageResourceId());
+
+        if(touristSpot.getImageResourceId()!=0) {
+
+            image.setImageResource(touristSpot.getImageResourceId());
+        }
+        else
+        {
+            image.setVisibility(View.GONE);
+        }
         return convertView;
     }
 }
