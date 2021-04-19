@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    //TODO: add a navigation drawer in main activity and add seprates activities to different fragments ie- hotel, restraunt , etc.
+    //TODO: add all methods like openactiviy and change the bundle key
     public void openHotelActivity(View view)
     {
         ArrayList<TouristSpot> List = new ArrayList<>();

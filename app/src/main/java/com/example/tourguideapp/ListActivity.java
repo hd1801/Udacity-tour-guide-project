@@ -51,10 +51,43 @@ public class ListActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 TouristSpot spot = (TouristSpot) parent.getItemAtPosition(position);
 
+
             }
         });
 
+
     }
 
-
+    // override the onOptionsItemSelected()
+    // function to implement
+    // the item click listener callback
+    // to open and close the navigation
+    // drawer when the icon is clicked
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        //TODO:set intents to switch cases transfer data of list, use different bundle keys for passing data (refter main activity)
+        switch (item.getItemId())
+        {
+            case R.id.nav_hotel:
+                break;
+            case R.id.nav_restaurants:
+                break;
+            case R.id.nav_tourist_spots:
+                break;
+            case R.id.nav_transports:
+                break;
+            case R.id.nav_shops:
+                break;
+            case R.id.nav_emergency:
+                break;
+            default:
+                break;
+        }
+        if (actionBarDrawerToggle.onOptionsItemSelected(item)) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }
+
+
