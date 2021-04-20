@@ -3,13 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DescFragment">
+    tools:context=".DescFragment"
+    >
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_desc_container">
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
     <ImageView
+        android:id="@+id/desc_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/sample"
@@ -29,16 +37,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Marriott_hotel"
                     android:textSize="24sp"
                     android:textColor="@color/black"
+                    android:id="@+id/name_textView"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
                     android:textSize="20sp"
-                    android:text="@string/Marriott_short_desc"/>
+                    android:id="@+id/short_desc_textView"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -57,7 +65,7 @@
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         android:textSize="20sp"
-                        android:text="@string/Marriott_address"/>
+                        android:id="@+id/address_textView"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -75,14 +83,14 @@
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         android:textSize="20sp"
-                        android:text="@string/Marriott_contact"/>
+                        android:id="@+id/contact_textView"/>
                 </LinearLayout>
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:layout_gravity="center_horizontal">
         <LinearLayout
@@ -92,7 +100,6 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="DESCRIPTION"
@@ -104,9 +111,11 @@
             android:layout_height="wrap_content"
             android:padding="16dp"
             android:textSize="16sp"
-            android:text="@string/Marriott_desc"
+            android:id="@+id/desc_textView"
+
             />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     </LinearLayout>
+</FrameLayout>
 </ScrollView>

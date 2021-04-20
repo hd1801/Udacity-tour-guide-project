@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     public void openHotelActivity(View view)
     {
         ArrayList<TouristSpot> List = new ArrayList<>();
-        List.add(new TouristSpot(getString(R.string.SampleName), "This i s sample description", R.drawable.sample));
+        List.add(new TouristSpot(getString(R.string.ITC_hotel), getString(R.string.ITC_short_desc), R.drawable.sample,getString(R.string.ITC_desc),getString(R.string.ITC_address),getString(R.string.ITC_contact)));
         List.add(new TouristSpot("Sample Place", "This i s sample description", R.drawable.sample));
         List.add(new TouristSpot("Sample Place", "This i s sample description", R.drawable.sample));
         List.add(new TouristSpot("Sample Place", "This i s sample description", R.drawable.sample));
