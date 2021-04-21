@@ -3,6 +3,7 @@ package com.example.tourguideapp;
 import android.media.Image;
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -28,6 +29,7 @@ public class DescFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        ((AppCompatActivity)getActivity()).getSupportActionBar().hide();
         rootView = inflater.inflate(R.layout.fragment_desc, container, false);
         Bundle args =getArguments();
         SetData(args);
@@ -52,4 +54,5 @@ public class DescFragment extends Fragment {
         address.setText(a.getAddress());
 
     }
+
 }

@@ -8,15 +8,15 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="16dp"
-    app:cardCornerRadius="15dp"
+    app:cardCornerRadius="10dp"
     android:layout_gravity="center_horizontal"
     >
     <LinearLayout
         android:gravity="center_vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        style="@style/CardView.Dark"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="16dp">
 
     <ImageView
         android:layout_width="match_parent"
@@ -31,7 +31,8 @@
             android:layout_height="wrap_content"
             android:text="@string/SampleName"
             style="@style/Headings"
-            android:textSize="48dp"
+            android:layout_marginTop="8dp"
+            android:textSize="24sp"
             android:layout_gravity="center_horizontal"
             android:id="@+id/card_title"
                 />
@@ -39,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="short description"
-            android:textSize="20dp"
+            android:textSize="14sp"
             android:layout_gravity="center_horizontal"
             android:id="@+id/card_desc"
             />

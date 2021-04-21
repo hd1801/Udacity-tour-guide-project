@@ -3,7 +3,7 @@
 
     <style name="Headings" parent="TextAppearance.AppCompat">
         <item name="android:textSize">24dp</item>
-        <item name="fontFamily">cursive</item>
+        <item name="fontFamily" >serif-monospace</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textStyle">bold</item>
     </style>

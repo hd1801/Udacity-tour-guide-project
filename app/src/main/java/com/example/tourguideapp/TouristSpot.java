@@ -11,15 +11,7 @@ public class TouristSpot implements Parcelable {
     private int mImageResourceId;
 
     //Constructor to be used for List
-    public TouristSpot(String mName,String mShortDescription) {
-        this.mName = mName;
-        this.mShortDescription=mShortDescription;
-    }
-    public TouristSpot(String mName, String mShortDescription, int mImageResourceId) {
-        this.mName = mName;
-        this.mShortDescription=mShortDescription;
-        this.mImageResourceId = mImageResourceId;
-    }
+
     public TouristSpot(String mName, String mShortDescription, int mImageResourceId,String mDescription,String mAddress,String mContact) {
         this.mName = mName;
         this.mShortDescription=mShortDescription;

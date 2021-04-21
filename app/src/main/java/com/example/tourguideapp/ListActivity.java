@@ -62,13 +62,15 @@ public class ListActivity extends AppCompatActivity {
                 fragmentManager.beginTransaction()
                         .replace(R.id.fragment_desc_container, mFragment).commit();
 
-
-
-
             }
         });
 
+    }
 
+    @Override
+    public void onBackPressed() {
+        getSupportFragmentManager().popBackStackImmediate();
+        super.onBackPressed();
     }
 
     // override the onOptionsItemSelected()
@@ -79,10 +81,10 @@ public class ListActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         //TODO:set intents to switch cases transfer data of list, use different bundle keys for passing data (refter main activity)
-        switch (item.getItemId())
-        {
+        switch (item.getItemId()) {
             case R.id.nav_hotel:
-                break;
+            {   
+                break;}
             case R.id.nav_restaurants:
                 break;
             case R.id.nav_tourist_spots:
@@ -90,8 +92,6 @@ public class ListActivity extends AppCompatActivity {
             case R.id.nav_transports:
                 break;
             case R.id.nav_shops:
-                break;
-            case R.id.nav_emergency:
                 break;
             default:
                 break;
