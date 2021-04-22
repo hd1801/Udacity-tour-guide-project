@@ -7,8 +7,12 @@ public class TouristSpot implements Parcelable {
     // mName-> Name of the locatioan
     // mShortDescription -> description to show on cards
     // mDescription -> detailed description
-    private String mName,mShortDescription,mDescription,mAddress,mContact;
-    private int mImageResourceId;
+    private String mName;
+    private String mShortDescription;
+    private String mDescription;
+    private final String mAddress;
+    private final String mContact;
+    private final int mImageResourceId;
 
     //Constructor to be used for List
 
