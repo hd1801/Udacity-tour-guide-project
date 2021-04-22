@@ -54,12 +54,7 @@
 
 The landmark was built in 1799 to allow royal ladies to watch festivals on the street without being seen by the public. Its 953 windows allow plenty of breeze to pass through, making it an ideal summer palace.</string>
 
-    <string name="Amber_Fort_spot"></string>
-    <string name="Amber_Fort_short_desc"></string>
-    <string name="Amber_Fort_contact"></string>
-    <string name="Amber_Fort_address"></string>
-    <string name="Amber_Fort_desc">Jaipur is home to one of India\' most-visited forts: Amber Fort. Built in the year 1592, the sandstone and marble monolith stands atop a small hill roughly 20 minute driving distance northeast of the center of Jaipur. Its best known for being a pristine example of Rajasthani architecture.
-Getting to Amber Fort typically involves a short uphill hike that\'s well worth the effort. Its decked out with intricate patterns of inlaid marble in nearly every color of the rainbow. The fort is laid out into four separate sections, each of which has a spectacular garden courtyard outside. While you\'d never know it from above, you can actually explore the fort\'s underground tunnels, some of which have been restored.</string>
+
 
     <string name="Birla_Mandir_spot">Birla Mandir</string>
     <string name="Birla_Mandir_short_desc">Modern, domed Hindu temple built of white marble, with stained glass, intricate carvings, a museum. </string>
@@ -139,28 +134,24 @@ While it appears to have just one story, the Water Palace has four other levels 
     <string name="Tripolia_Bazaar_address">Kanwar Nagar in Jaipur</string>
     <string name="Tripolia_Bazaar_desc">If you love lac jewelry or the intricately designed lac bangles, then Tripolia Bazaar is one the best shopping places in Jaipur. This Bazaar is a famous market in Jaipur for its exclusive lac jewelry and amazing collection of bangles.</string>
 
-    <string name="metro"></string>
+    <string name="metro">JAIPUR METRO</string>
     <string name="metro_short_desc">Metro System</string>
     <string name="metro_contact">0141-2822156</string>
     <string name="metro_address">Neemuch Rd, Gopalbari, Bari Sadri, Rajasthan 312403</string>
     <string name="metro_desc">The Jaipur Metro is a rapid transit system in the city of Jaipur, Rajasthan, India. Construction on the mostly elevated part of the first line, called Phase 1A, comprising 9.63 kilometres of route from Mansarovar to Chandpole Bazaar, started in November 2010, and was completed in 2014</string>
 
-    <string name="LowFloor_bus"></string>
-    <string name="LowFloor_short_desc"></string>
-    <string name="LowFloor_contact"></string>
-    <string name="LowFloor_address"></string>
+    <string name="LowFloor_bus">LOW FLOOR</string>
+    <string name="LowFloor_short_desc">Jaipur City Transport Service Limited JCTSL</string>
+    <string name="LowFloor_contact">0141-2373044</string>
+    <string name="LowFloor_address">specific route number</string>
     <string name="LowFloor_desc">Jaipur low floor bus started in the year 2007 with a total of 100 buses. It is now a convenient and one of the most popularly used means of transport in the Jaipur city. Jaipur City Transport Service Limited JCTSL runs Jaipur low floor buses, which includes both AC and non-AC buses. The low floor bus operates from 5 a.m. in the morning to 9:30 p.m. in the evening. However, some low floor buses moving in the sub-urban areas of Jaipur may stop operation as early as 8 p.m.</string>
 
-    <string name="_shop"></string>
-    <string name="_short_desc"></string>
-    <string name="_contact"></string>
-    <string name="_address"></string>
-    <string name="_desc"></string>
+    <string name="Palace_On_Wheels">Palace On Wheels</string>
+    <string name="Palace_On_Wheels_short_desc"> the most luxurious trains of India.</string>
+    <string name="Palace_On_Wheels_contact">http://www.thepalaceonwheels.com/schedule-tariff.html</string>
+    <string name="Palace_On_Wheels_address">17A/46, First Floor, WEA, Karol Bagh,</string>
+    <string name="Palace_On_Wheels_desc">The train service was renovated and relaunched in August 2009 with the introduction of a new decor, itinerary and cuisines. Palace On Wheels was voted the 4th luxurious train in the world in 2010. It is rated as the top 10 luxury train journeys in the world.</string>
 
-    <string name="_shop"></string>
-    <string name="_short_desc"></string>
-    <string name="_contact"></string>
-    <string name="_address"></string>
-    <string name="_desc"></string>
+
 
 </resources>

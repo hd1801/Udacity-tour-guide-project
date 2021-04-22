@@ -21,7 +21,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/sample"
+
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
         android:id="@+id/card_image"
@@ -29,7 +29,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/SampleName"
             style="@style/Headings"
             android:layout_marginTop="8dp"
             android:textSize="24sp"
@@ -39,7 +38,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="short description"
             android:textSize="14sp"
             android:layout_gravity="center_horizontal"
             android:id="@+id/card_desc"
