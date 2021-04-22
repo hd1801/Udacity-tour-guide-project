@@ -15,9 +15,6 @@
     <string name="SampleDescription">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacnklafvbjvfblkbfvblkbfkvfba;kfkvbfkbfkj flkbvb ;vnkjbonfbaf laalnkdnlnslkbvdflsdbkbvkjhbk vdskbdlsbsdbkjbj</string>
     <string name="SampleName">ABC PALACE</string>
 
-    <string name="CityPalace">CITY PALACE</string>
-    <string name="CityPalace_short_desc">CITY PALACE</string>
-    <string name="CityPalace_desc">CITY PALACE</string>
 
     <string name="ITC_hotel">ITC Rajputana</string>
     <string name="ITC_short_desc">a Luxury Collection Hotel</string>
@@ -88,9 +85,82 @@ While the official name for this place is Galta Ji, it\'s better known as the Mo
 
 While it appears to have just one story, the Water Palace has four other levels submerged beneath a reservoir. Tourists can\'t access the site, however, that may change in the future. Rumor has it that entrepreneurs want to convert the decaying space into a luxe restaurant.</string>
 
-    <string name="_spot"></string>
+    <string name="Jaipur_Adda_rest">Jaipur Adda</string>
+    <string name="Jaipur_Adda_short_desc">Modern Indian</string>
+    <string name="Jaipur_Adda_contact">http://www.jaipuradda.com/</string>
+    <string name="Jaipur_Adda_address"> 8/9, Station Road, Kanti Nagar, Sindhi Camp, Jaipur, Rajasthan 302016</string>
+    <string name="Jaipur_Adda_desc">Jaipur Adda is among the many famous restaurants in Jaipur that allow you to feel the wind in your hair while you devour mouth-watering food. But what sets this place apart is its cheery interiors, magnificent wall art and fine wood furniture that adds a royal feel to the whole experience.</string>
+
+    <string name="The_Rajput_Room_rest">The Rajput Room</string>
+    <string name="The_Rajput_Room_short_desc">North Indian, Continental, Asian</string>
+    <string name="The_Rajput_Room_contact">https://taj.tajhotels.com/en-in/taj-rambagh-palace-jaipur/restaurants/the-rajput-room-restaurant/</string>
+    <string name="The_Rajput_Room_address">Rambagh Palace, Bhawani Singh Road, Rambagh, Jaipur, Rajasthan 302005</string>
+    <string name="The_Rajput_Room_desc">Just like Rajasthan without royalty is incomplete, without The Rajput Room the list of best restaurants in Jaipur is lacking. When visiting the numerous tourist places in Jaipur, don\’t forget to delight your taste buds with the appetizing selection of Asian and Continental dishes served in this Rambagh Palace restaurant, Jaipur that help unwinding from the stress of everyday drudgery.</string>
+
+    <string name="Zolocrust_rest">Zolocrust</string>
+    <string name="Zolocrust_short_desc">Italian, Bakery, Continental</string>
+    <string name="Zolocrust_contact">http://www.zolocrust.com/</string>
+    <string name="Zolocrust_address">Hotel Clarks Amer,, Jawahar Lal Nehru Marg, Jaipur, Rajasthan 302017</string>
+    <string name="Zolocrust_desc">This 24/7 restaurant allows the diners to interact with the finest chefs cooking their meals. The organically grown vegetables impart that unique flavor to the dish that is often missing in the chemically produced food that has taken over our lives today. Added to that, the use of unconventional crockery that is disposable and environment friendly makes this undeniably one of the famous restaurants in Jaipur.</string>
+
+    <string name="RJ14_rest">RJ 14</string>
+    <string name="RJ14_short_desc">North Indian, South Indian</string>
+    <string name="RJ14_contact">098871 25555</string>
+    <string name="RJ14_address">Plot No 132, 133, 151, Ajmer Road, Opposite IndusInd Bank, Ajmera Garden, DCM, Jaipur, Rajasthan 302019</string>
+    <string name="RJ14_desc">A true delight for the lovers of Indian cuisine, this is unmistakably the best vegetarian restaurant in Jaipur. Apart from being a veggie lover\’s paradise, the charming interiors of this quaint restaurant are breathtaking and enchant with their exceptional beauty.</string>
+
+    <string name="Chao_Chinese_rest">Chao Chinese Bistro</string>
+    <string name="Chao_Chinese_short_desc"> Chinese, Asian</string>
+    <string name="Chao_Chinese_contact">https://www.ihg.com/holidayinn/hotels/gb/en/jaipur/jaicc/hoteldetail/dining#</string>
+    <string name="Chao_Chinese_address">Holiday Inn, Sardar Patel Marg, Bais Godam, Jaipur, Rajasthan 302007</string>
+    <string name="Chao_Chinese_desc">One of the best Chinese restaurants in Jaipur, the bistro impresses one with its emphasis on simplicity and flavor. Indulge in an array of authentic Chinese dishes or pick a modern rendition of the traditional recipe from their wide range of selection and gorge on the heavenly taste of Asian food.</string>
+
+    <string name="TapriCentral_rest">Tapri Central</string>
+    <string name="TapriCentral_short_desc">Café, Fast Food</string>
+    <string name="TapriCentral_contact">http://www.tapri.net/</string>
+    <string name="TapriCentral_address">B4-E, Prithviraj Road, Opposite Central Park Gate No. 4, C-Scheme, Jaipur, Rajasthan 302001</string>
+    <string name="TapriCentral_desc">Among the best places to eat in Jaipur, Tapri Central deserves a special mention for its cozy interiors that transform a hangout with friends into a homely affair and the alluring view of Central park mesmerizes one and all with its beauty!</string>
+
+    <string name="Johari_Bazaar_shop">Johari Bazaar</string>
+    <string name="Johari_Bazaar_short_desc">Gem, Jewelry, Handicrafts, Furniture, Art</string>
+    <string name="Johari_Bazaar_contact"> None </string>
+    <string name="Johari_Bazaar_address">Johari Bazar Rd in Chuwapimpara Jaipur, 302021</string>
+    <string name="Johari_Bazaar_desc">Amongst the places to visit in Jaipur for shopping, Johari Bazaar is a jewelry lovers paradise. One of the famous markets in Jaipur, the Johari Bazaar is the home to exquisite Jaipur jewelry and its intricate craftsmanship.</string>
+
+    <string name="Chandpole_Bazaar_shop">Chandpole Bazaar</string>
+    <string name="Chandpole_Bazaar_short_desc">Marble Artifacts, Handcrafts, Furniture, Art</string>
+    <string name="Chandpole_Bazaar_contact">None</string>
+    <string name="Chandpole_Bazaar_address">Topkhana Desh in Jhotwara, Jaipur</string>
+    <string name="Chandpole_Bazaar_desc">One of the exclusive shopping markets in Jaipur is Chandpole Bazaar. Its the hub of unique handicrafts and marble crafts that bring tourists from all over the world to this part of the city. </string>
+
+    <string name="Tripolia_Bazaar_shop">Tripolia Bazaar</string>
+    <string name="Tripolia_Bazaar_short_desc">Lac Jewelry, Handlooms</string>
+    <string name="Tripolia_Bazaar_contact">None</string>
+    <string name="Tripolia_Bazaar_address">Kanwar Nagar in Jaipur</string>
+    <string name="Tripolia_Bazaar_desc">If you love lac jewelry or the intricately designed lac bangles, then Tripolia Bazaar is one the best shopping places in Jaipur. This Bazaar is a famous market in Jaipur for its exclusive lac jewelry and amazing collection of bangles.</string>
+
+    <string name="metro"></string>
+    <string name="metro_short_desc">Metro System</string>
+    <string name="metro_contact">0141-2822156</string>
+    <string name="metro_address">Neemuch Rd, Gopalbari, Bari Sadri, Rajasthan 312403</string>
+    <string name="metro_desc">The Jaipur Metro is a rapid transit system in the city of Jaipur, Rajasthan, India. Construction on the mostly elevated part of the first line, called Phase 1A, comprising 9.63 kilometres of route from Mansarovar to Chandpole Bazaar, started in November 2010, and was completed in 2014</string>
+
+    <string name="LowFloor_bus"></string>
+    <string name="LowFloor_short_desc"></string>
+    <string name="LowFloor_contact"></string>
+    <string name="LowFloor_address"></string>
+    <string name="LowFloor_desc">Jaipur low floor bus started in the year 2007 with a total of 100 buses. It is now a convenient and one of the most popularly used means of transport in the Jaipur city. Jaipur City Transport Service Limited JCTSL runs Jaipur low floor buses, which includes both AC and non-AC buses. The low floor bus operates from 5 a.m. in the morning to 9:30 p.m. in the evening. However, some low floor buses moving in the sub-urban areas of Jaipur may stop operation as early as 8 p.m.</string>
+
+    <string name="_shop"></string>
     <string name="_short_desc"></string>
     <string name="_contact"></string>
     <string name="_address"></string>
     <string name="_desc"></string>
+
+    <string name="_shop"></string>
+    <string name="_short_desc"></string>
+    <string name="_contact"></string>
+    <string name="_address"></string>
+    <string name="_desc"></string>
+
 </resources>

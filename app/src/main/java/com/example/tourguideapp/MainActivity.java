@@ -43,7 +43,12 @@ public class MainActivity extends AppCompatActivity {
     public void openSpotActivity(View view)
     {
         ArrayList<TouristSpot> List = new ArrayList<>();
-        List.add(new TouristSpot(getString(R.string.ITC_hotel), getString(R.string.ITC_short_desc), R.drawable.sample,getString(R.string.ITC_desc),getString(R.string.ITC_address),getString(R.string.ITC_contact)));
+        List.add(new TouristSpot(getString(R.string.Amber_Fort_spot), getString(R.string.Amber_Fort_short_desc), R.drawable.sample,getString(R.string.Amber_Fort_desc),getString(R.string.Amber_Fort_address),getString(R.string.Amber_Fort_contact)));
+        List.add(new TouristSpot(getString(R.string.Birla_Mandir_spot), getString(R.string.Birla_Mandir_short_desc), R.drawable.sample,getString(R.string.Birla_Mandir_desc),getString(R.string.Birla_Mandir_address),getString(R.string.Birla_Mandir_contact)));
+        List.add(new TouristSpot(getString(R.string.Hawa_Mahal_spot), getString(R.string.Hawa_Mahal_short_desc), R.drawable.sample,getString(R.string.Hawa_Mahal_desc),getString(R.string.Hawa_Mahal_address),getString(R.string.Hawa_Mahal_contact)));
+        List.add(new TouristSpot(getString(R.string.Jantar_Mantar_spot), getString(R.string.Jantar_Mantar_short_desc), R.drawable.sample,getString(R.string.Jantar_Mantar_desc),getString(R.string.Jantar_Mantar_address),getString(R.string.Jantar_Mantar_contact)));
+        List.add(new TouristSpot(getString(R.string.Jal_Mahal_spot), getString(R.string.Jal_Mahal_short_desc), R.drawable.sample,getString(R.string.Jal_Mahal_desc),getString(R.string.Jal_Mahal_address),getString(R.string.Jal_Mahal_contact)));
+        List.add(new TouristSpot(getString(R.string.Galta_Ji_spot), getString(R.string.Galta_Ji_short_desc), R.drawable.sample,getString(R.string.Galta_Ji_desc),getString(R.string.Galta_Ji_address),getString(R.string.Galta_Ji_contact)));
         Intent i= new Intent(MainActivity.this,ListActivity.class);
         Bundle bundle = new Bundle();
         bundle.putParcelableArrayList("data",List);
